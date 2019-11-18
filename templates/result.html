@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>PROFIT REPORT: </h2><br>
+    Proceeds: <br>
+    {{proceeds}}<br>
+    <br>
+    Cost <br>
+    {{cost}}<br>
+    <br>
+    Cost Details: <br>
+    Total Purchase Price<br>
+    {{ allotment }} x {{ initial }} = {{ initial_total }}<br>
+    Buy Commission = {{ buy_commission }} <br>
+    Sell Commission = {{ sell_commission }} <br>
+    Tax on Capital Gain = {{ tax }} of {{ capital_gain }} = {{ tax_on_capital_gain }}<br>
+    <br>
+    Net profit <br>
+    {{net_profit}}<br>
+    <br>
+    Return on Investment <br>
+    {{return_on_investment}}<br>
+    <br>
+    To break even, you should have a final share price of <br>
+    {{break_even_price}}<br>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Stock Profit Calculator</title>
+</head>
+<body>
+<h1>Provide your stock information</h1>
+<form method ="POST" action="/">
+    <div class=""form-group>Ticker Symbol:
+        <input type="text" name="stockSymbol">
+    </div>
+    <div class=""form-group>Allotment:
+        <input type="text" name="allotment">
+    </div>
+    <div class=""form-group>Final Share Price:
+        <input type="text" name="final">
+    </div>
+    <div class=""form-group>Sell Commission:
+        <input type="text" name="sell_commission">
+    </div>
+    <div class=""form-group>Initial Share Price:
+        <input type="text" name="initial">
+    </div>
+    <div class=""form-group>Buy Commission:
+        <input type="text" name="buy_commission">
+    </div>
+    <div class=""form-group>Capital Gain Tax Rate (%):
+        <input type="text" name="tax_rate">
+    </div>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
